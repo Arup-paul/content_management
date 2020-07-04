@@ -1,0 +1,198 @@
+
+
+
+/*Theme Default css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
+body{
+     font-family: 'Roboto Mono',
+     monospace;
+}
+
+/* header area */
+
+.header-area {
+	background: #ddd;
+	height: 50px;
+}
+.header-area .logo h2 a {
+	font-size: 22px;
+	font-weight: 700;
+	font-family: 'Roboto Mono',
+	monospace;
+	color: #2f2f2f;
+	text-transform: uppercase;
+}
+.main-menu ul {
+	text-align: center;
+	list-style: none;
+	margin: 10px 0;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Roboto Mono',
+	monospace;
+}
+
+/* main section */
+
+.main-section{
+	margin-top: 20px;
+}
+.title{}
+.title h2 {
+	color: #d59211;
+	font-size: 25px;
+	font-weight: 700;
+    font-family: 'Roboto Mono',
+    monospace;
+}
+.left-section{}
+
+.content{}
+.single-content{}
+.single-content-image{
+	position: relative;
+}
+.single-content-image img{
+	width: 100%;
+}
+.video-icon {
+	position: absolute;
+	top: 60%;
+	right: 5%;
+}
+
+
+.video-icon span {
+	color: #0ee03e;
+	font-size: 30px;
+	font-weight: 700;
+
+}
+.video-icon-simple {
+	position: absolute;
+	top: 45%;
+	right: 10%;
+}
+.video-icon-simple span:hover,
+.video-icon span:hover{
+	color:greenyellow;
+}
+.video-icon-simple span {
+	color: #0ee03e;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+.single-content-details {
+	margin: 15px 0;
+}
+.single-content-details h2 {
+	line-height: 18px;
+}
+.single-content-details h2 a{
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 25px;
+	font-family: 'Roboto Mono', monospace;
+}
+.single-content-details p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+.footer-area{
+	background: #ddd;
+	height: 50px;
+}
+
+.footer{}
+.footer p {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+/* details area */
+
+.details-content{}
+.details-title{}
+.details-title h2{
+	margin-bottom: 10px;;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	font-family: 'Roboto Mono',
+	monospace;
+}
+.details-img{
+}
+.details-img img{
+	width:100%;
+}
+.details-des{}
+.details-des p {
+}
+.share{}
+.share ul{
+	list-style: none;
+	text-align: center;
+}
+.share ul li{
+	display: inline-block;
+	margin: 10px;
+}
+.share ul li a{
+	font-size: 30px;
+	font-family: 'Roboto Mono',
+	monospace;
+}
+
+
+/* magenfic popup video css */
+.mfp-hide{
+	display: none;
+}
+.popup-video iframe{
+	width: 100%;
+	height: 400px;
+}
+
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
